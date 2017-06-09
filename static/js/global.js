@@ -1,7 +1,6 @@
 
 $(document).ready(function(){
-	
-// 去除虚线框（会影响效率）
+
 $("a,input:checkbox,input:radio,button,input:button").live('focus',function(){$(this).blur();});
 
 });
